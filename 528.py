@@ -36,7 +36,10 @@ class Solution:
 
 #######
 
-def minMeeting
+def minMeetingRooms(self, intervals: List[List[int]]) -> int:
+    result = 0
+    heap = []
+    
 
 
 
