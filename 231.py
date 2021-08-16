@@ -14,3 +14,7 @@ class Solution:
         else:
             return False
             
+#342. Power of 4:
+class Solution:
+    def isPowerOfFour(self, n: int):
+        return n > 0 and n & (n - 1) == 0 and n % 3 == 1
