@@ -27,3 +27,6 @@ class SnapshotArray:
             if index in arrayToExtract:
                 return arrayToExtract[index]
         return 0
+
+
+
