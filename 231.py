@@ -18,3 +18,10 @@ class Solution:
 class Solution:
     def isPowerOfFour(self, n: int):
         return n > 0 and n & (n - 1) == 0 and n % 3 == 1
+
+
+
+#n & (n - 1) == 0 -> 
+#remove the least significant 1 -> 
+#if it's 0 after removing, it would be power of 2
+
