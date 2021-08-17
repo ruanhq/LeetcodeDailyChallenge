@@ -20,3 +20,10 @@ class SnapshotArray:
             if index in arrayToExtract:
                 return arrayToExtract[index]
         return 0
+
+    def get(self, index, snap_id):
+        if snap_id in self.snapShot:
+            arrayToExtract = self.snapShot[snap_id]
+            if index in arrayToExtract:
+                return arrayToExtract[index]
+        return 0
