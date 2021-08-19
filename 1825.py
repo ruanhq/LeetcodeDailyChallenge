@@ -52,6 +52,7 @@ class MKAverage:
 2. LFU/LRU etc...
 705/706/1381/1825 etc...
 本周重点突破design类题目!!
+doubly linked list:
 """
 
 
