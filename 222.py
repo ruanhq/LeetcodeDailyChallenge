@@ -4,6 +4,7 @@ class Solution:
 	    if not root:
 	        return 0
 	    return self.depthCount(root.left) + 1
+	#Complete binary tree: the higher layer should be complete and the last layer is as left as possible
     def countNodes(self, root):
     	if not root:
     	    return 0
