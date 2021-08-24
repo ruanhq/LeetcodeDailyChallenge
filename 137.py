@@ -4,7 +4,3 @@ class Solution:
         assumedSum = 3 * sum(set(nums))
         result = (sum(nums) - assumedSum) // 2
         return result
-    ########
-    ########
-    ########
-    ########

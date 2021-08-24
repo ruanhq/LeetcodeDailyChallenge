@@ -2,6 +2,7 @@
 class Solution:
     def wiggleSort(self, nums):
     	#sorting in ascending order followed by pairwise swapping.
+    	#Requires O(n * logn)
         nums.sort()
         #pairwise switch is done.
         half = len(nums[::2])
@@ -23,8 +24,6 @@ class Solution:
         if not root:
             return 0 
         return self.getDepth(root.left)
-
-
 
 
 
