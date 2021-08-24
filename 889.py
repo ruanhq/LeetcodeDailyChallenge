@@ -7,7 +7,7 @@ class TreeNode:
 
 class Solution:
     def constructFromPrePost(self, preorder, postorder):
-        #for binary search problem, utilize a helper function here:
+        #for binary search problem, utilize a helper function here would help a lot!
         def helper(preOrderList, postOrderList):
             if not preOrderList:
                 return None
